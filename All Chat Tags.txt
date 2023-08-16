@@ -1,0 +1,26 @@
+local plr = game.Players.LocalPlayer
+
+local IsAdmin = Instance.new("IntValue")
+IsAdmin.Parent = plr
+IsAdmin.Value = "0"
+IsAdmin.Name = "IsAdmin"
+
+local IsChad = Instance.new("IntValue")
+IsChad.Parent = plr
+IsChad.Value = "0"
+IsChad.Name = "IsChad"
+
+local VIP = Instance.new("IntValue")
+VIP.Parent = plr
+VIP.Value = "0"
+VIP.Name = "VIP"
+
+local OldVIP = Instance.new("IntValue")
+OldVIP.Parent = plr
+OldVIP.Value = "0"
+OldVIP.Name = "OldVIP"
+
+local Ronin = Instance.new("IntValue")
+Ronin.Parent = plr
+Ronin.Value = "0"
+Ronin.Name = "Ronin"
